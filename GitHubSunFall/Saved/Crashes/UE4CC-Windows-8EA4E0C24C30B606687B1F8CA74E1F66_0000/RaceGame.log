@@ -1,0 +1,1091 @@
+﻿Log file open, 08/19/20 18:27:19
+LogInit: Display: Running engine for game: RaceGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.825786
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN'  - 0 instances of that module name found.
+LogOnline: Warning: OSS: TryLoadSubsystemAndSetDefault: LoadSubsystemModule([LAN]) failed
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/joshp/Desktop/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.20-01.27.21:588][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.20-01.27.21:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:589][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:593][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.20-01.27.21:593][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.20-01.27.21:594][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:594][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.20-01.27.21:595][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.20-01.27.21:595][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.20-01.27.21:595][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.20-01.27.21:596][  0]LogHAL: Display: Platform has ~ 16 GB [17105620992 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.20-01.27.21:596][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.20-01.27.21:596][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.20-01.27.21:596][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.20-01.27.21:597][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Scalability.ini]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.20-01.27.21:598][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.20-01.27.21:611][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.20-01.27.21:611][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.20-01.27.21:611][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.20-01.27.21:611][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Config/Windows/Engine.ini]
+[2020.08.20-01.27.21:611][  0]LogInit: Computer: DESKTOP-FDC1PMN
+[2020.08.20-01.27.21:611][  0]LogInit: User: joshp
+[2020.08.20-01.27.21:611][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.20-01.27.21:611][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.20-01.27.21:611][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.20-01.27.21:611][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.20-01.27.21:611][  0]LogMemory: Process Physical Memory: 114.88 MB used, 114.88 MB peak
+[2020.08.20-01.27.21:611][  0]LogMemory: Process Virtual Memory: 96.73 MB used, 96.73 MB peak
+[2020.08.20-01.27.21:611][  0]LogMemory: Physical Memory: 10303.66 MB used,  6009.53 MB free, 16313.19 MB total
+[2020.08.20-01.27.21:611][  0]LogMemory: Virtual Memory: 5110.41 MB used,  134212616.00 MB free, 134217728.00 MB total
+[2020.08.20-01.27.21:619][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.20-01.27.22:153][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.20-01.27.22:178][  0]LogInit: Using OS detected language (en-US).
+[2020.08.20-01.27.22:178][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.20-01.27.22:187][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.20-01.27.22:967][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.20-01.27.23:162][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.20-01.27.23:162][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.20-01.27.23:710][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.20-01.27.23:710][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.20-01.27.23:710][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.20-01.27.23:710][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.20-01.27.23:762][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.08.20-01.27.23:762][  0]LogD3D11RHI:       4059/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.08.20-01.27.23:765][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.20-01.27.23:765][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.20-01.27.23:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.20-01.27.23:775][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.20-01.27.23:775][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.20-01.27.23:775][  0]LogWindows: EnumDisplayDevices:
+[2020.08.20-01.27.23:775][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.08.20-01.27.23:775][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.08.20-01.27.23:776][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.08.20-01.27.23:776][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.08.20-01.27.23:776][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.20-01.27.23:776][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.08.20-01.27.23:776][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2020.08.20-01.27.23:776][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2020.08.20-01.27.23:776][  0]LogRHI: Texture pool is 2841 MB (70% of 4059 MB)
+[2020.08.20-01.27.23:797][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.08.20-01.27.23:825][  0]LogD3D11RHI: [Aftermath] Failed to initialize. Result=bad0000c
+[2020.08.20-01.27.23:825][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.20-01.27.23:840][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.20-01.27.24:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.20-01.27.24:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.20-01.27.25:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.20-01.27.25:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.20-01.27.25:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.20-01.27.25:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.20-01.27.25:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.20-01.27.25:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.20-01.27.25:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.20-01.27.25:457][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.20-01.27.25:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.20-01.27.25:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.20-01.27.25:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.20-01.27.25:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.20-01.27.25:655][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.20-01.27.25:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.20-01.27.25:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.20-01.27.25:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.20-01.27.25:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.20-01.27.25:757][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.20-01.27.25:897][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.20-01.27.26:584][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Documents/Perforce/GD342007/PerforceSunfall/Intermediate/Shaders/WorkingDirectory/22364/).
+[2020.08.20-01.27.26:585][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshp/AppData/Local/Temp/UnrealShaderWorkingDir/B0F3E63D4DBCA1BCCB0C80A5B9A4AFD6/'.
+[2020.08.20-01.27.26:585][  0]LogXGEController: Cleaning working directory: C:/Users/joshp/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.20-01.27.26:585][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.20-01.27.26:586][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.20-01.27.26:586][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.20-01.27.32:871][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.20-01.27.33:623][  0]LogDerivedDataCache: Loaded boot cache 0.75s 76MB C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.20-01.27.33:623][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.20-01.27.33:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Perforce/GD342007/PerforceSunfall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.20-01.27.33:624][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.20-01.27.33:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/Perforce/GD342007/PerforceSunfall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.20-01.27.33:624][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.20-01.27.33:635][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.20-01.27.33:635][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.20-01.27.33:635][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.20-01.27.33:642][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.20-01.27.33:642][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.20-01.27.33:642][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.20-01.27.33:702][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.20-01.27.33:722][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.20-01.27.34:515][  0]LogAssetRegistry: FAssetRegistry took 0.0191 seconds to start up
+[2020.08.20-01.27.34:953][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.20-01.27.36:002][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.20-01.27.36:002][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.20-01.27.36:002][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.20-01.27.36:002][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.20-01.27.36:002][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.20-01.27.36:186][  0]LogNetVersion: RaceGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3031071720)
+[2020.08.20-01.27.43:915][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000201C46A2980), frame # 0
+[2020.08.20-01.27.43:915][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201C453AAC0), frame # 0
+[2020.08.20-01.27.43:917][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201C4581C00), frame # 0
+[2020.08.20-01.27.44:092][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.168853 seconds
+[2020.08.20-01.27.44:097][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.20-01.27.44:098][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.20-01.27.44:098][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.20-01.27.46:669][  0]LogPackageName: Warning: Asset path "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.08.20-01.27.46:670][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.08.20-01.27.46:670][  0]LogPackageName: SearchForPackageOnDisk took   1.404s, but failed to resolve Fire_Fortress.
+[2020.08.20-01.27.46:670][  0]LogPackageName: Warning: Asset path "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2020.08.20-01.27.46:670][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../Documents/Perforce/GD342007/PerforceSunfall/Intermediate/CachedAssetRegistry.bin
+[2020.08.20-01.27.48:203][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.20-01.27.48:233][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.20-01.27.48:917][  0]SourceControl: Source control is disabled
+[2020.08.20-01.27.48:917][  0]SourceControl: Source control is disabled
+[2020.08.20-01.27.51:037][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.20-01.27.51:295][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.20-01.27.51:295][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.20-01.27.51:592][  0]LogOcInput: OculusInput pre-init called
+[2020.08.20-01.27.51:722][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.20-01.27.51:722][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.20-01.27.52:066][  0]LogEngine: Initializing Engine...
+[2020.08.20-01.27.52:067][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.20-01.27.52:067][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.20-01.27.52:068][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.20-01.27.52:215][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.20-01.27.52:256][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.20-01.27.52:256][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201CA003C00), frame # 0
+[2020.08.20-01.27.52:256][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201CA04A340), frame # 0
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.20-01.27.52:286][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.20-01.27.52:286][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.20-01.27.52:287][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.20-01.27.52:287][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.20-01.27.52:455][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.20-01.27.52:455][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.20-01.27.52:577][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.08.20-01.27.52:581][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.20-01.27.52:585][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.20-01.27.52:585][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.20-01.27.52:587][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.20-01.27.52:603][  0]LogInit: FAudioDevice initialized.
+[2020.08.20-01.27.52:603][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.20-01.27.52:612][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.20-01.27.52:613][  0]LogInit: Texture streaming: Enabled
+[2020.08.20-01.27.52:896][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.20-01.27.52:896][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.20-01.27.53:071][  0]LogInit: Transaction tracking system initialized
+[2020.08.20-01.27.53:963][  0]BlueprintLog: New page: Editor Load
+[2020.08.20-01.27.55:222][  0]LocalizationService: Localization service is disabled
+[2020.08.20-01.27.55:930][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2020.08.20-01.27.56:807][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.20-01.27.56:807][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.20-01.27.57:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Content/' took 0.16s
+[2020.08.20-01.28.00:980][  0]LogUnrealEdMisc: Loading editor; pre map load, took 88.014
+[2020.08.20-01.28.00:980][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.20-01.28.00:981][  0]LightingResults: New page: Lighting Build
+[2020.08.20-01.28.00:994][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.20-01.28.00:995][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.20-01.28.00:995][  0]MapCheck: New page: Map Check
+[2020.08.20-01.28.00:995][  0]LightingResults: New page: Lighting Build
+[2020.08.20-01.28.01:009][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000201CA003C00), frame # 0
+[2020.08.20-01.28.01:009][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201CA04A340), frame # 0
+[2020.08.20-01.28.01:010][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.08.20-01.28.01:070][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.01:070][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.08.20-01.28.01:070][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.01:070][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.08.20-01.28.01:070][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.01:071][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.08.20-01.28.01:071][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.01:071][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.08.20-01.28.01:072][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:072][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:072][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:072][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:072][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:072][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:072][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:072][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:073][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:073][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:073][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:073][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:073][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:073][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:074][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:074][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:159][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:159][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:159][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:159][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:160][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:160][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:160][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:160][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:160][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:160][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:160][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:160][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:160][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:161][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:161][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:161][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.08.20-01.28.01:250][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:251][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.08.20-01.28.01:251][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:251][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.08.20-01.28.01:251][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:251][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.08.20-01.28.01:252][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:252][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.08.20-01.28.01:252][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:252][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.08.20-01.28.01:252][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:252][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.08.20-01.28.01:252][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:252][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.08.20-01.28.01:252][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:253][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.08.20-01.28.01:266][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:266][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:266][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:266][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:267][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:268][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:268][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:268][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:332][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:332][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:332][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:332][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:334][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:334][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:334][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:334][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:336][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:336][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:337][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:337][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:337][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:337][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:338][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:338][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:346][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:346][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:346][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:347][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:347][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:347][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:347][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:348][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:522][  0]LogBlueprint: Warning: [Compiler VehicleBlueprint] InputAction Event references unknown Action 'Handbrake' for  InputAction Handbrake
+[2020.08.20-01.28.01:609][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:610][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:610][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:610][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:611][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:611][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:611][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:612][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:613][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:613][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:613][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:614][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:615][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:615][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.08.20-01.28.01:615][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.01:615][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/HoverboardBP1.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.08.20-01.28.02:351][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:351][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:351][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:351][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:352][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master': Can't find file.
+[2020.08.20-01.28.02:353][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master': Can't find file.
+[2020.08.20-01.28.02:363][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master': Can't find file.
+[2020.08.20-01.28.02:363][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master': Can't find file.
+[2020.08.20-01.28.02:364][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_2': Can't find file.
+[2020.08.20-01.28.02:364][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_2': Can't find file.
+[2020.08.20-01.28.02:364][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_3': Can't find file.
+[2020.08.20-01.28.02:364][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_3': Can't find file.
+[2020.08.20-01.28.02:365][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_2': Can't find file.
+[2020.08.20-01.28.02:365][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_2': Can't find file.
+[2020.08.20-01.28.02:365][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_3': Can't find file.
+[2020.08.20-01.28.02:365][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_3': Can't find file.
+[2020.08.20-01.28.02:366][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_2': Can't find file.
+[2020.08.20-01.28.02:366][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_2': Can't find file.
+[2020.08.20-01.28.02:366][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_3': Can't find file.
+[2020.08.20-01.28.02:366][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_3': Can't find file.
+[2020.08.20-01.28.02:366][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_2': Can't find file.
+[2020.08.20-01.28.02:367][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_2': Can't find file.
+[2020.08.20-01.28.02:367][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_3': Can't find file.
+[2020.08.20-01.28.02:367][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_3': Can't find file.
+[2020.08.20-01.28.02:367][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_2': Can't find file.
+[2020.08.20-01.28.02:368][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_2': Can't find file.
+[2020.08.20-01.28.02:368][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_3': Can't find file.
+[2020.08.20-01.28.02:368][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_3': Can't find file.
+[2020.08.20-01.28.02:369][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_2': Can't find file.
+[2020.08.20-01.28.02:369][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_2': Can't find file.
+[2020.08.20-01.28.02:369][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_3': Can't find file.
+[2020.08.20-01.28.02:370][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_3': Can't find file.
+[2020.08.20-01.28.02:370][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_2': Can't find file.
+[2020.08.20-01.28.02:370][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_2': Can't find file.
+[2020.08.20-01.28.02:370][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_3': Can't find file.
+[2020.08.20-01.28.02:371][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_3': Can't find file.
+[2020.08.20-01.28.02:371][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_2': Can't find file.
+[2020.08.20-01.28.02:371][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_2': Can't find file.
+[2020.08.20-01.28.02:371][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_3': Can't find file.
+[2020.08.20-01.28.02:372][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_3': Can't find file.
+[2020.08.20-01.28.02:387][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:387][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:388][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:388][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Blueprints/BP_OceanWater.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:433][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_Cheap.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap': Can't find file.
+[2020.08.20-01.28.02:433][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_Cheap.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap': Can't find file.
+[2020.08.20-01.28.02:433][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_Cheap.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap': Can't find file.
+[2020.08.20-01.28.02:434][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_Cheap.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap': Can't find file.
+[2020.08.20-01.28.02:487][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:487][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:487][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:487][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:488][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect': Can't find file.
+[2020.08.20-01.28.02:488][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect': Can't find file.
+[2020.08.20-01.28.02:711][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:711][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:712][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:712][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:712][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect': Can't find file.
+[2020.08.20-01.28.02:712][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect': Can't find file.
+[2020.08.20-01.28.02:772][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:772][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:772][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:773][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:773][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:773][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.02:773][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:773][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.02:860][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:861][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:861][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:862][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:862][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:863][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:863][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:864][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:906][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:906][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal.MI_CausticsDecal Referenced by Caustics_GEN_VARIABLE
+[2020.08.20-01.28.02:907][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal': Can't find file.
+[2020.08.20-01.28.02:907][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/MI_CausticsDecal.MI_CausticsDecal Referenced by Caustics_GEN_VARIABLE
+[2020.08.20-01.28.02:908][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:908][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect.MI_UnderwaterPostEffect Referenced by PostProcess_GEN_VARIABLE
+[2020.08.20-01.28.02:909][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/SunfallMap/Maps/SunfallMap.umap' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect': Can't find file.
+[2020.08.20-01.28.02:909][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/MI_UnderwaterPostEffect.MI_UnderwaterPostEffect Referenced by PostProcess_GEN_VARIABLE
+[2020.08.20-01.28.04:274][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.04:274][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.08.20-01.28.04:274][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.04:274][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.08.20-01.28.04:284][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.04:284][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.08.20-01.28.04:284][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.08.20-01.28.04:284][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.08.20-01.28.04:872][  0]LogTexture: Display: Building textures: BoardMaterial_Specular (AutoDXT, 2048X2048)
+[2020.08.20-01.28.04:872][  0]LogTexture: Display: Building textures: BoardMaterial_AO (AutoDXT, 2048X2048)
+[2020.08.20-01.28.04:872][  0]LogTexture: Display: Building textures: BoardMaterial_Roughness (AutoDXT, 2048X2048)
+[2020.08.20-01.28.04:872][  0]LogTexture: Display: Building textures: BoardMaterial_Normal (BC5, 2048X2048)
+[2020.08.20-01.28.04:872][  0]LogTexture: Display: Building textures: BoardMaterial_Albedo (BC5, 2048X2048)
+[2020.08.20-01.28.04:872][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.04:872][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect.M_BubbleEffect Referenced by ParticleModuleRequired_0
+[2020.08.20-01.28.04:872][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.04:872][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect.M_BubbleEffect Referenced by ParticleModuleRequired_0
+[2020.08.20-01.28.04:873][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.04:873][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect.M_MoteEffect Referenced by ParticleModuleRequired_1
+[2020.08.20-01.28.04:873][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterSplash.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.04:873][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect.M_MoteEffect Referenced by ParticleModuleRequired_1
+[2020.08.20-01.28.04:876][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.04:876][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect.M_MoteEffect Referenced by ParticleModuleRequired_0
+[2020.08.20-01.28.04:877][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect': Can't find file.
+[2020.08.20-01.28.04:877][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_MoteEffect.M_MoteEffect Referenced by ParticleModuleRequired_0
+[2020.08.20-01.28.04:878][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect': Can't find file.
+[2020.08.20-01.28.04:878][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect.MI_LightshaftEffect Referenced by ParticleModuleRequired_1
+[2020.08.20-01.28.04:878][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect': Can't find file.
+[2020.08.20-01.28.04:878][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/MI_LightshaftEffect.MI_LightshaftEffect Referenced by ParticleModuleRequired_1
+[2020.08.20-01.28.04:878][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.04:878][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect.M_BubbleEffect Referenced by ParticleModuleRequired_2
+[2020.08.20-01.28.04:878][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Particles/PS_UnderwaterLightShafts.uasset' failed to load '/Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect': Can't find file.
+[2020.08.20-01.28.04:878][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Effects/Master/M_BubbleEffect.M_BubbleEffect Referenced by ParticleModuleRequired_2
+[2020.08.20-01.28.04:879][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_Cheap.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap': Can't find file.
+[2020.08.20-01.28.04:879][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap.M_Ocean_Master_Cheap Referenced by MI_Ocean_Cheap
+[2020.08.20-01.28.04:880][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_Cheap.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap': Can't find file.
+[2020.08.20-01.28.04:880][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_Master_Cheap.M_Ocean_Master_Cheap Referenced by MI_Ocean_Cheap
+[2020.08.20-01.28.04:881][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master': Can't find file.
+[2020.08.20-01.28.04:881][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master.M_Ocean_NewShading_Master Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:881][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master': Can't find file.
+[2020.08.20-01.28.04:881][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Materials/Ocean/Master/M_Ocean_NewShading_Master.M_Ocean_NewShading_Master Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:883][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_2': Can't find file.
+[2020.08.20-01.28.04:883][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_D_2.T_Foam_D_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:883][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_2': Can't find file.
+[2020.08.20-01.28.04:883][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_D_2.T_Foam_D_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:883][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_2': Can't find file.
+[2020.08.20-01.28.04:883][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_N_2.T_Foam_N_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:884][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_2': Can't find file.
+[2020.08.20-01.28.04:884][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_N_2.T_Foam_N_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:884][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_3': Can't find file.
+[2020.08.20-01.28.04:884][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_D_3.T_Foam_D_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:884][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_D_3': Can't find file.
+[2020.08.20-01.28.04:884][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_D_3.T_Foam_D_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:885][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_3': Can't find file.
+[2020.08.20-01.28.04:885][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_N_3.T_Foam_N_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:885][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Foam_N_3': Can't find file.
+[2020.08.20-01.28.04:885][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Foam_N_3.T_Foam_N_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:885][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_2': Can't find file.
+[2020.08.20-01.28.04:885][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_N_2.T_Water_N_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:886][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_2': Can't find file.
+[2020.08.20-01.28.04:886][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_N_2.T_Water_N_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:886][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_3': Can't find file.
+[2020.08.20-01.28.04:886][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_N_3.T_Water_N_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:886][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_N_3': Can't find file.
+[2020.08.20-01.28.04:886][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_N_3.T_Water_N_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:887][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_2': Can't find file.
+[2020.08.20-01.28.04:887][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_H_2.T_Water_H_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:887][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_2': Can't find file.
+[2020.08.20-01.28.04:887][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_H_2.T_Water_H_2 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:888][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_3': Can't find file.
+[2020.08.20-01.28.04:888][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_H_3.T_Water_H_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.04:888][  0]LogLinker: Warning: While loading '../../../../../Documents/Perforce/GD342007/PerforceSunfall/Content/TropicalOceanTool/Materials/Ocean/MI_Ocean_NewSHading.uasset' failed to load '/Game/TropicalOceanTool/Textures/Water/T_Water_H_3': Can't find file.
+[2020.08.20-01.28.04:888][  0]LoadErrors: Failed to load /Game/TropicalOceanTool/Textures/Water/T_Water_H_3.T_Water_H_3 Referenced by MI_Ocean_NewShading
+[2020.08.20-01.28.19:523][  0]LogTexture: Warning: The data retrieved from the derived data cache for the texture Texture2D /Game/BuildingMaterial/TrackMaterial/TrackMaterial_Roughness.TrackMaterial_Roughness was invalid. The texture will be rebuild.
+[2020.08.20-01.28.19:523][  0]LogTexture: Display: Building textures: TrackMaterial_Albedo (AutoDXT, 2048X2048)
+[2020.08.20-01.28.19:523][  0]LogTexture: Display: Building textures: TrackMaterial_Roughness (AutoDXT, 2048X2048)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_Waves_Shore (RGBA16F, 961X63)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_Waves_Shore_Normals (BGRA8, 961X63)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_Waves01_Normals (BGRA8, 961X63)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_Waves01 (RGBA16F, 961X63)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_Waves02 (RGBA16F, 961X63)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_EdgeFoam (AutoDXT, 1024X1024)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Cubemap (RGBA16F, 256X256)
+[2020.08.20-01.28.19:524][  0]LogTexture: Display: Building textures: T_Ocean_Foam (AutoDXT, 1024X1024)
+[2020.08.20-01.28.20:109][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Sphere...
+[2020.08.20-01.28.20:127][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Boards/SunSailer_Hoverboard__Sphere.SunSailer_Hoverboard__Sphere
+[2020.08.20-01.28.20:185][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Sphere_002...
+[2020.08.20-01.28.20:193][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Boards/SunSailer_Hoverboard__Sphere_002.SunSailer_Hoverboard__Sphere_002
+[2020.08.20-01.28.20:331][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Sphere_001...
+[2020.08.20-01.28.20:344][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Boards/SunSailer_Hoverboard__Sphere_001.SunSailer_Hoverboard__Sphere_001
+[2020.08.20-01.28.20:642][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Plane...
+[2020.08.20-01.28.20:651][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Boards/SunSailer_Hoverboard__Plane.SunSailer_Hoverboard__Plane
+[2020.08.20-01.28.20:748][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Plane_002...
+[2020.08.20-01.28.20:755][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Boards/SunSailer_Hoverboard__Plane_002.SunSailer_Hoverboard__Plane_002
+[2020.08.20-01.28.20:978][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Plane_001...
+[2020.08.20-01.28.20:986][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Boards/SunSailer_Hoverboard__Plane_001.SunSailer_Hoverboard__Plane_001
+[2020.08.20-01.28.21:891][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Cylinder...
+[2020.08.20-01.28.21:954][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Boards/SunSailer_Hoverboard__Cylinder.SunSailer_Hoverboard__Cylinder
+[2020.08.20-01.28.22:236][  0]LogMaterial: Display: Missing cached shader map for material board, compiling. 
+[2020.08.20-01.28.22:295][  0]LogStaticMesh: Building static mesh SunSailer_Hoverboard__Circle...
+[2020.08.20-01.28.22:320][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.08.20-01.28.22:320][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.08.20-01.28.22:320][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.08.20-01.28.22:320][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.08.20-01.28.22:320][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Boards/SunSailer_Hoverboard__Circle.SunSailer_Hoverboard__Circle
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__BF47314920CB8C260884EFF67E511EF4DE6BA3FE.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__6D36C77A348C7320DE14131ADD23C18B6E8EFCBE.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__6C42BA9AAEC7AF6CAB1D18A0C5EECBFDFD0AC87E.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__0AEEFC958E3D3DA7198833648F9FD5FF5DCF6A99.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__32C842A09E05F22ECB72FDE2717958B227801D97.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__B2E161B2C198E9053B415C9E367C66C0F3B4F50B.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__A54697E1674FC90896735A5035D3DAD814E2DC4A.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/3/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__6212ED607DA52E9BB3F7734EF60E447DE27F671E.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/6/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__57B35EE835D2FC70355FF5FDEECAA18E6D592C5B.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__198CE0CF1A46D09C0D46859B3588F7A8ED4A1C0E.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__4F78AEF9125FD533B32BC5255CBBD95E315137DC.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__402F3F8F4448EE78CCEE1B1C0AE05A76AE4F032E.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/8/2/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__2D029A464D58F2D915B33E7B88042F07F1A810EB.udd.
+[2020.08.20-01.28.51:497][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/1/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__D118589AED4489CE18EBB87B6142BEB7C76F667C.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/3/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__0376976CC4A5947A9730DFE05610772F217990DE.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__53BDB080AB836F6BB8C06315EE5EBA5FEE37C540.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__46E63B23A272A9B7180707F5E9EB3CBA155F460D.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__D0BB60D79773F799CE97F2E5B30B062F284F4BC0.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__6A03D246D969C9C806FCF764B1F50CD1990AC508.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/4/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__8BD7E3C879CE3CEC00E4E864CD172BEC89C11E32.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/2/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__4DBBC9BA4E5666AE29E1CCE5FE8D8BA66CB294A2.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/6/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__B741E756F524F2FC716B72D728362DD1A56BB730.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__D73CD1CF610ABC5F5013B4F895A870B8D1AB1073.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/2/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__B7ACE4AB32C9D3F9E43AA101F70DA2AB0332D4EC.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__E3E715F751179803742418EC4E013CA58A20511F.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__5414881FB07444B8A81C0869245B3E48E5E77285.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/3/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__173F57B656682561502FED8334B2E0678B02AADA.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/1/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__CCFC3FA79C0001487CBFDBC6E1647498CCF1F853.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__FB3F5618472C0F611897CE19B7F7C68DA02CE5F9.udd.
+[2020.08.20-01.28.51:498][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__5881D5FC05558AE9AF01A917350BED18C938EBE1.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__C0044B7E08AE8D19C9A8DA635EC8700D0663A940.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__00686B4366FFA48F12E646D23B2BFFE29C3334A6.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/1/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__25449C3EBA7C6B0365E40061BD088F186AB5984D.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__46DE73B319C5C9341A118CF7FD300323857575F5.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__B4995448A9071C7455E000DF78E786760D70AA9E.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/3/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__C0ACAE8FA45C14F20781B3296B08866C0407BC58.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__ED1C072D601EC9A1FB9ACD40840044B3630A2C37.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__20140B722B3F95E71BB1DFFA7FC13267CBF1FA38.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/2/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__7ADB61F051B25C91F8682CD472DF2C404C6CE62D.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/3/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__9AED9A7A5D9C3256E14B53A29B0EE663E2DD57EC.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/1/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__40C9D48320A7B0A4976CDC83593270B19631FF11.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/4/4/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__114BB71128D278F916B5D2B04DE12E8B8871F58C.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__37D51EE363B56F208BCCAFCA2CAA9CF67E7E4038.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/3/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__8DEEB164662F2965FE7FD609AFF682C33F7342C0.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__F8CAD6D797DE099B7F3C32C3110FF22C30675F58.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__8527571B34FC67A3A29C15A34D8529DBBF062EB8.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/1/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__A3BE573E54184AB6EAE8B57172EB9BABF05972A8.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__6CCDA7AAC6AA70E46F246810F72351957824C162.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__B48865463A43FBFE36D4044D9C6BDA317F5CAF7F.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__C0FC3DB86625D5681ADBA61A6680A7B18FE2E77D.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__DA27B8B47E906EB3AF175070B1A7D69669B429F8.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__BA18F10B1CC992D47FEAFEEF66E4F0C28083E298.udd.
+[2020.08.20-01.28.51:499][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__E479AE8C0E5574B2C468C7889B5019B8CAE51D80.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__FD01C89DC6FB7836BD43A58C9ABDA9E694252B2D.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/4/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__8D269C09E015E8A97782B2288CC4FCE2C3768195.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__65C6BBD9AAF750AAD285D9F30A210754D8B126ED.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__DB5FFC345EF698BA0019F27C0C0E79B394F662B7.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/5/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__0A2F2F90842A62AEBC29E43F2CC16D346B52C643.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__BD7BBE33E1BC33DB82A1A8B84E990118EFF2E91C.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/4/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__B4EE61B5A0F574BFB31C0F02DFD59F497E546A98.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/4/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__2800B1216E06A2678FC0C51AA629B5134191D59E.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/1/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__EE7034E9A285858B311B9EDB7900802EA956A5B8.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__9829BE318C8152ED83FC76E734EDB54A6452A4F9.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__63873F4B94F065E295EF5F8584A5971777FFF6CD.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/2/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__8D92B93F79232451FF75D9C6A2B21FA86B9184E5.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__A5B7C48D385DC3550BB3F0783514188B138EE62E.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/2/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__C5B5ECCF0F995B90C6364A5B9B66206988615C04.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__10D2EC71A601CBE023A119E6B468C5667D4CD776.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/2/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__BA4428D850FC9C20178649CB640B4E6CB580891B.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__F173BDCDA60690641F34C78A4BCFFFB367DA8C81.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__FB9F0065810759598DCF4D4317C22FFA493DEF38.udd.
+[2020.08.20-01.28.51:500][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__65C8891F4F6E3751FF441BEDFFEE169886B4348C.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__5AF179DC42BA8985BB6ABE1F32EB930ADC78EB7E.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__E81232923F111DF47E45EF113669669C59F9B570.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__11226C3C8BD0929C6B1A4E4BC58A873107960617.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/7/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__1839726991E80BF61964D530F0014D0A7D6E3A0C.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__8512816B1019E4C86ABB14BA47B34EF627504040.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/2/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__E50326A20CB8D99D3A8B09832684DBC83299F1C9.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__7C24D035F7C9C64042BE413CB9A64759A35EF31E.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/2/5/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__F1EA6C8108723941A604A45CD824389DCBC9916A.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/8/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__53DEB584A2E2CADE1304E272BB57332466000E68.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__D074F7EF4769172EED8A69C9D032364C8B96EF53.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/9/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__F2B3425DB190C13D98C2F5CA15C74FBF797384DA.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/6/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__EC400BAEA19ECEE26B13CC072BDAFAEE34495FB3.udd.
+[2020.08.20-01.28.51:501][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/0/PHYSX_A08609EF508D460CBB6710540B03AACF_PHYSXPC_7805B1F34A7B3FD6D93AF5A51FD2D7C__124E39789455BDC7337FE00BEF31108C79D5AE62.udd.
+[2020.08.20-01.28.51:501][  0]LogMaterial: Display: Missing cached shader map for material M_Ocean, compiling. 
+[2020.08.20-01.28.51:753][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 119
+[2020.08.20-01.28.51:753][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 109
+[2020.08.20-01.28.51:753][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 99
+[2020.08.20-01.28.51:753][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 89
+[2020.08.20-01.28.51:753][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 79
+[2020.08.20-01.28.51:763][  0]LogMaterial: Display: Missing cached shader map for material M_Waterfall_Foam, compiling. 
+[2020.08.20-01.28.51:852][  0]LogMaterial: Display: Missing cached shader map for material Track, compiling. 
+[2020.08.20-01.28.51:882][  0]LogMaterial: Display: Missing cached shader map for material BoostPadMat, compiling. 
+[2020.08.20-01.28.51:913][  0]LogMaterial: Display: Missing cached shader map for material M_Flag, compiling. 
+[2020.08.20-01.28.52:171][  0]LogMaterial: Display: Missing cached shader map for material M_Waterfall, compiling. 
+[2020.08.20-01.28.52:529][  0]LogAIModule: Creating AISystem for world SunfallMap
+[2020.08.20-01.28.52:531][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201E6399200), frame # 0
+[2020.08.20-01.28.52:531][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201D9239F80), frame # 0
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/2/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_6A8DB2D017B8BD08234831EF6A5A08B9.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/8/9/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_C6DFA4064103293BC498F5BE12C228D9.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/8/3/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_C4E87746804675198E7C3FC12C483C17.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/6/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_F3BA153C4CFC2560E725DABE0ACA4F5A.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/0/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_F749FBF74B90A0DE1BD744B06E2DB480.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/4/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_06AB75A3A4C0E037F02C8BBBF57A6181.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/7/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_B5BFB8ACCB7EDE0691907B8B7EC87EDF.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/3/4/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_666C4BBF46E10C50AA228A98DD041425.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/6/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_AF854E14668C62D8ECDDF6613387A51E.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/9/9/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_BEB3A4594AF646BF8C294090835CE30B.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/9/9/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_6D6020B62E3161A0125DA54104725C8F.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/5/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_59FBD4F441B5A8F69DD693BD3C775B1D.udd.
+[2020.08.20-01.28.54:386][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/1/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_504D20F54C497021CEEFFF968B7DB5DE.udd.
+[2020.08.20-01.28.54:387][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/1/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_D88892C748DFFF402B54B08B6529C3D8.udd.
+[2020.08.20-01.28.54:387][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/5/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_30ECE56114DA77A4EC008858B0A1B280.udd.
+[2020.08.20-01.28.54:387][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/4/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_8AD0CBAA940B39E16FDFC3057A18D95D.udd.
+[2020.08.20-01.28.54:387][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/5/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_D1AFFE43C3B1ADBF02FB7DA75DED07D0.udd.
+[2020.08.20-01.28.54:387][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/2/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_E89BF3C64069C1D33F1EA4A57C287A6F.udd.
+[2020.08.20-01.28.58:403][  0]LogDerivedDataCache: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/5/PHYSX_PHYSXPC_FULL_CC58B9FA08AD47E3BF06976E60B693C3_37745432AAC1DC104995EF66757C8569.udd.
+[2020.08.20-01.28.58:452][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.20-01.29.05:989][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.08.20-01.29.05:993][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.20-01.29.05:994][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.224ms to complete.
+[2020.08.20-01.29.05:994][  0]LogFileHelpers: Loading map 'SunfallMap' took 65.014
+[2020.08.20-01.29.05:998][  0]LogUnrealEdMisc: Total Editor Startup Time, took 153.032
+[2020.08.20-01.29.06:502][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.20-01.29.06:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.20-01.29.06:523][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.20-01.29.06:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.20-01.29.07:198][  0]LogSourceControl: Attempting 'p4 client -o JPSunFall'
+[2020.08.20-01.29.07:198][  0]LogCollectionManager: Loaded 0 collections in 0.004544 seconds
+[2020.08.20-01.29.07:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Saved/Collections/' took 0.02s
+[2020.08.20-01.29.07:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Content/Developers/joshp/Collections/' took 0.00s
+[2020.08.20-01.29.07:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Content/Collections/' took 0.02s
+[2020.08.20-01.29.07:281][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 3429 classes and 824 folders.
+[2020.08.20-01.29.07:304][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.20-01.29.11:179][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.20-01.29.11:180][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.08.20-01.29.12:299][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.20-01.29.12:299][  0]LogLoad: (Engine Initialization) Total time: 159.33 seconds
+[2020.08.20-01.29.12:300][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.20-01.29.12:325][  0]LogRawInputWindows: Warning: Found device 10 devices
+[2020.08.20-01.29.12:325][  0]LogRawInputWindows: Warning: Found device 10 devices
+[2020.08.20-01.29.12:325][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2020.08.20-01.29.12:325][  0]LogRawInputWindows: Warning: Found device 10 devices
+[2020.08.20-01.29.12:325][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2020.08.20-01.29.12:326][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.20-01.29.12:349][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.20-01.29.12:414][  0]SourceControl: Client JPSunFall
+[2020.08.20-01.29.12:414][  0]SourceControl: Update 2020/08/03 15:35:37
+[2020.08.20-01.29.12:414][  0]SourceControl: Access 2020/08/19 18:24:04
+[2020.08.20-01.29.12:414][  0]SourceControl: Owner 19054052.us
+[2020.08.20-01.29.12:414][  0]SourceControl: Host DESKTOP-FDC1PMN
+[2020.08.20-01.29.12:414][  0]SourceControl: Description Created by 19054052.us.
+
+[2020.08.20-01.29.12:415][  0]SourceControl: Root C:\Users\joshp\Documents\Perforce
+[2020.08.20-01.29.12:415][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.08.20-01.29.12:415][  0]SourceControl: SubmitOptions leaveunchanged
+[2020.08.20-01.29.12:415][  0]SourceControl: LineEnd local
+[2020.08.20-01.29.12:415][  0]SourceControl: View0 -//Hustle/... //JPSunFall/Hustle/...
+[2020.08.20-01.29.12:415][  0]SourceControl: View1 -//GD_2001/... //JPSunFall/GD_2001/...
+[2020.08.20-01.29.12:415][  0]SourceControl: View2 //GD342007/... //JPSunFall/GD342007/...
+[2020.08.20-01.29.12:415][  0]SourceControl: View3 -//GAM210_GameDev2_2005/... //JPSunFall/GAM210_GameDev2_2005/...
+[2020.08.20-01.29.12:415][  0]SourceControl: View4 -//GAM200/... //JPSunFall/GAM200/...
+[2020.08.20-01.29.12:415][  0]SourceControl: Type writeable
+[2020.08.20-01.29.12:415][  0]SourceControl: Backup enable
+[2020.08.20-01.29.12:415][  0]SourceControl: specFormatted 
+[2020.08.20-01.29.12:415][  0]SourceControl: func client-FstatInfo
+[2020.08.20-01.29.12:416][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.20-01.29.12:448][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.08.20-01.29.16:056][  0]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/Perforce/GD342007/PerforceSunfall/Config/DefaultEngine.ini'
+[2020.08.20-01.29.16:056][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.608 s
