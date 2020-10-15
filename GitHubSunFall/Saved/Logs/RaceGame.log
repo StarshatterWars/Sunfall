@@ -1,8 +1,8 @@
-﻿Log file open, 10/14/20 14:50:08
+﻿Log file open, 10/15/20 13:30:36
 LogInit: Display: Running engine for game: RaceGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 7.134484
+LogStats: Stats thread started at 13.509393
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -81,10 +81,8 @@ LogPluginManager: Mounting plugin NetcodeUnitTest
 LogPluginManager: Mounting plugin NUTUnrealEngine4
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting plugin OnlineSubsystemIOS
-LogPluginManager: Mounting plugin OnlineFramework
 LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin OnlineSubsystemNull
-LogPluginManager: Mounting plugin OnlineSubsystemSteam
 LogPluginManager: Mounting plugin OnlineSubsystemUtils
 LogPluginManager: Mounting plugin LauncherChunkInstaller
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
@@ -112,7 +110,6 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SoundFields
-LogPluginManager: Mounting plugin SteamShared
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin Synthesis
 LogPluginManager: Mounting plugin WebMMoviePlayer
@@ -200,577 +197,1091 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:686][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.14-21.50.08:686][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:686][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.14-21.50.08:687][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:687][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:690][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.14-21.50.08:690][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.14-21.50.08:691][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.14-21.50.08:692][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.14-21.50.08:693][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.14-21.50.08:693][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.14-21.50.08:693][  0]LogHAL: Display: Platform has ~ 16 GB [17105620992 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.14-21.50.08:693][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.14-21.50.08:693][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.14-21.50.08:693][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.14-21.50.08:694][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.14-21.50.08:695][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.14-21.50.08:696][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.14-21.50.08:696][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.14-21.50.08:696][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.14-21.50.08:696][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
-[2020.10.14-21.50.08:696][  0]LogInit: Computer: DESKTOP-FDC1PMN
-[2020.10.14-21.50.08:696][  0]LogInit: User: joshp
-[2020.10.14-21.50.08:696][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.10.14-21.50.08:696][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.14-21.50.08:696][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.10.14-21.50.08:696][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.14-21.50.08:696][  0]LogMemory: Process Physical Memory: 114.81 MB used, 114.81 MB peak
-[2020.10.14-21.50.08:696][  0]LogMemory: Process Virtual Memory: 96.68 MB used, 96.69 MB peak
-[2020.10.14-21.50.08:696][  0]LogMemory: Physical Memory: 5964.50 MB used,  10348.69 MB free, 16313.19 MB total
-[2020.10.14-21.50.08:696][  0]LogMemory: Virtual Memory: 5110.44 MB used,  134212616.00 MB free, 134217728.00 MB total
-[2020.10.14-21.50.08:727][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.14-21.50.08:765][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.14-21.50.08:767][  0]LogInit: Using OS detected language (en-US).
-[2020.10.14-21.50.08:767][  0]LogInit: Using OS detected locale (en-US).
-[2020.10.14-21.50.08:773][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.10.14-21.50.08:952][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.14-21.50.08:995][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.14-21.50.08:995][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.14-21.50.09:225][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.14-21.50.09:225][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.14-21.50.09:225][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.14-21.50.09:225][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.14-21.50.09:258][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2020.10.14-21.50.09:258][  0]LogD3D11RHI:       4059/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.10.14-21.50.09:262][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.14-21.50.09:262][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.14-21.50.09:262][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.14-21.50.09:269][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.14-21.50.09:269][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.14-21.50.09:269][  0]LogWindows: EnumDisplayDevices:
-[2020.10.14-21.50.09:270][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2020.10.14-21.50.09:270][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.10.14-21.50.09:270][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.10.14-21.50.09:271][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.10.14-21.50.09:271][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.10.14-21.50.09:271][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2020.10.14-21.50.09:271][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
-[2020.10.14-21.50.09:271][  0]LogD3D11RHI:      Driver Date: 10-21-2016
-[2020.10.14-21.50.09:271][  0]LogRHI: Texture pool is 2841 MB (70% of 4059 MB)
-[2020.10.14-21.50.09:286][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.10.14-21.50.09:288][  0]LogD3D11RHI: [Aftermath] Failed to initialize. Result=bad0000c
-[2020.10.14-21.50.09:288][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.14-21.50.09:304][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.10.14-21.50.09:724][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.14-21.50.09:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.14-21.50.09:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.14-21.50.09:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.14-21.50.09:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.14-21.50.09:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.14-21.50.09:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.14-21.50.09:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.14-21.50.09:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.14-21.50.09:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.14-21.50.09:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.14-21.50.09:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.14-21.50.09:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.14-21.50.09:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.14-21.50.09:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.14-21.50.09:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.14-21.50.09:941][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.14-21.50.09:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.14-21.50.09:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.14-21.50.09:963][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.14-21.50.09:973][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.14-21.50.10:042][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Intermediate/Shaders/WorkingDirectory/10236/).
-[2020.10.14-21.50.10:042][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshp/AppData/Local/Temp/UnrealShaderWorkingDir/74509CAA4CBB4FFDED29FC94D36B3C8E/'.
-[2020.10.14-21.50.10:043][  0]LogXGEController: Cleaning working directory: C:/Users/joshp/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.10.14-21.50.10:043][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.14-21.50.10:043][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.14-21.50.10:043][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.14-21.50.10:933][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.14-21.50.10:985][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.14-21.50.10:985][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.14-21.50.10:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/Sunfall/GitHubSunFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.14-21.50.10:985][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.14-21.50.10:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/GitHub/Sunfall/GitHubSunFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.14-21.50.10:985][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.14-21.50.10:996][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.14-21.50.10:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.14-21.50.10:996][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.14-21.50.11:003][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.14-21.50.11:003][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.14-21.50.11:003][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.14-21.50.11:058][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.14-21.50.11:059][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.14-21.50.11:096][  0]LogAssetRegistry: FAssetRegistry took 0.0132 seconds to start up
-[2020.10.14-21.50.11:370][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.14-21.50.11:522][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.14-21.50.11:522][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.14-21.50.11:522][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.14-21.50.11:522][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.14-21.50.11:522][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.14-21.50.11:537][  0]LogNetVersion: RaceGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3031071720)
-[2020.10.14-21.50.12:023][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000029586CE9BC0), frame # 0
-[2020.10.14-21.50.12:023][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029586C642C0), frame # 0
-[2020.10.14-21.50.12:025][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029586C85E00), frame # 0
-[2020.10.14-21.50.12:085][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.055071 seconds
-[2020.10.14-21.50.12:090][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.14-21.50.12:090][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.14-21.50.12:090][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.14-21.50.12:467][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.14-21.50.12:474][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.14-21.50.12:521][  0]LogSteamShared: Display: Loading Steam SDK 1.47
-[2020.10.14-21.50.12:522][  0]LogSteamShared: Steam SDK Loaded!
-[2020.10.14-21.50.12:577][  0]SourceControl: Source control is disabled
-[2020.10.14-21.50.12:577][  0]SourceControl: Source control is disabled
-[2020.10.14-21.50.12:580][  0]SourceControl: Source control is disabled
-[2020.10.14-21.50.12:583][  0]SourceControl: Source control is disabled
-[2020.10.14-21.50.12:593][  0]SourceControl: Source control is disabled
-[2020.10.14-21.50.12:914][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.14-21.50.12:935][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.14-21.50.12:935][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.14-21.50.12:988][  0]LogOcInput: OculusInput pre-init called
-[2020.10.14-21.50.13:000][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.14-21.50.13:000][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.14-21.50.13:063][  0]LogEngine: Initializing Engine...
-[2020.10.14-21.50.13:065][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.14-21.50.13:065][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.14-21.50.13:066][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.14-21.50.13:182][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.14-21.50.13:191][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.14-21.50.13:191][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002958DFB1C00), frame # 0
-[2020.10.14-21.50.13:192][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002958DFF1440), frame # 0
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.14-21.50.13:211][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.14-21.50.13:211][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.14-21.50.13:211][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.14-21.50.13:212][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.14-21.50.13:252][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.14-21.50.13:252][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.14-21.50.13:322][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.10.14-21.50.13:324][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.14-21.50.13:329][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.14-21.50.13:329][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.14-21.50.13:330][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.14-21.50.13:331][  0]LogInit: FAudioDevice initialized.
-[2020.10.14-21.50.13:331][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.14-21.50.14:076][  0]LogDerivedDataCache: Saved boot cache 0.74s 76MB C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.14-21.50.14:076][  0]LogInit: Texture streaming: Enabled
-[2020.10.14-21.50.14:096][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.14-21.50.14:096][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.14-21.50.14:106][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.14-21.50.14:319][  0]LogInit: Transaction tracking system initialized
-[2020.10.14-21.50.14:341][  0]BlueprintLog: New page: Editor Load
-[2020.10.14-21.50.14:417][  0]LocalizationService: Localization service is disabled
-[2020.10.14-21.50.14:637][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.14-21.50.14:637][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.14-21.50.14:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/' took 0.07s
-[2020.10.14-21.50.15:024][  0]SourceControl: Source control is disabled
-[2020.10.14-21.50.15:024][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.183
-[2020.10.14-21.50.15:024][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/Blueprints/MainMenu/MainMenuSunfall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.14-21.50.15:025][  0]LightingResults: New page: Lighting Build
-[2020.10.14-21.50.15:025][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.14-21.50.15:025][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.14-21.50.15:026][  0]MapCheck: New page: Map Check
-[2020.10.14-21.50.15:026][  0]LightingResults: New page: Lighting Build
-[2020.10.14-21.50.15:035][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002958DFB1C00), frame # 0
-[2020.10.14-21.50.15:035][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002958DFF1440), frame # 0
-[2020.10.14-21.50.15:036][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.10.14-21.50.15:114][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:114][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
-[2020.10.14-21.50.15:114][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:114][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
-[2020.10.14-21.50.15:115][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:115][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
-[2020.10.14-21.50.15:115][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:115][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
-[2020.10.14-21.50.15:115][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:115][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
-[2020.10.14-21.50.15:115][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:116][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
-[2020.10.14-21.50.15:116][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:116][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
-[2020.10.14-21.50.15:116][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:116][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
-[2020.10.14-21.50.15:136][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:136][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
-[2020.10.14-21.50.15:136][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:137][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
-[2020.10.14-21.50.15:137][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:137][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
-[2020.10.14-21.50.15:137][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:137][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
-[2020.10.14-21.50.15:137][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:137][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:138][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:138][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:138][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:138][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:138][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:138][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:139][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:139][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:139][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:139][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:139][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:139][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:139][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:139][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
-[2020.10.14-21.50.15:186][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:186][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:187][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:187][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:187][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:188][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:188][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:188][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:201][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:201][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:201][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:202][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:202][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:203][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:203][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:203][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:207][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:208][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:208][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:208][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:209][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:209][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:209][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:210][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:225][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:225][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:225][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:225][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:227][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:227][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
-[2020.10.14-21.50.15:227][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:227][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] In use pin  <Unnamed>  no longer exists on node  Join to Selected Server . Please refresh node or break links to remove pin.
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] In use pin  Target  no longer exists on node  Join to Selected Server . Please refresh node or break links to remove pin.
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] In use pin  Search Result  no longer exists on node  Join to Selected Server . Please refresh node or break links to remove pin.
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] Could not find a function named "JoinToSelectedServer" in 'MP_Find-Button'.
-Make sure 'MP_Find-Button' has been compiled for  Join to Selected Server
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
-[2020.10.14-21.50.15:370][  0]LogBlueprint: Error: [Compiler MP_Find-Button] In use pin  As BP Gameinfo Instance  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
-[2020.10.14-21.50.15:415][  0]LogBlueprint: Warning: [Compiler VehicleBlueprint] InputAction Event references unknown Action 'Handbrake' for  InputAction Handbrake
-[2020.10.14-21.50.15:567][  0]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/AllLevels/PlayerSaveGame.PlayerSaveGame_C:S_PlayerInfo'. Unknown structure.
-[2020.10.14-21.50.15:567][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/Blueprints/AllLevels/PlayerSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.10.14-21.50.15:658][  0]LogBlueprint: Warning: [Compiler 0_Base] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
-[2020.10.14-21.50.15:658][  0]LogBlueprint: Warning: [Compiler 0_Base] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
-[2020.10.14-21.50.15:659][  0]LogBlueprint: Warning: [Compiler 0_Base] InputAction Event references unknown Action 'Jump' for  InputAction Jump
-[2020.10.14-21.50.15:659][  0]LogBlueprint: Warning: [Compiler 0_Base] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
-[2020.10.14-21.50.15:713][  0]LogClass: Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.10.14-21.50.15:858][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:858][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
-[2020.10.14-21.50.15:858][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:858][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
-[2020.10.14-21.50.15:858][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:858][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
-[2020.10.14-21.50.15:859][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
-[2020.10.14-21.50.15:859][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
-[2020.10.14-21.50.16:026][  0]LogAIModule: Creating AISystem for world MainMenuSunfall
-[2020.10.14-21.50.16:026][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002959F670800), frame # 0
-[2020.10.14-21.50.16:026][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002959FD1A340), frame # 0
-[2020.10.14-21.50.16:027][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.14-21.50.16:044][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
-[2020.10.14-21.50.16:045][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.14-21.50.16:045][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.178ms to complete.
-[2020.10.14-21.50.16:045][  0]LogFileHelpers: Loading map 'MainMenuSunfall' took 1.021
-[2020.10.14-21.50.16:047][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.206
-[2020.10.14-21.50.16:209][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.14-21.50.16:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.14-21.50.16:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.14-21.50.16:230][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.14-21.50.16:246][  0]LogCollectionManager: Loaded 0 collections in 0.003468 seconds
-[2020.10.14-21.50.16:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Collections/' took 0.00s
-[2020.10.14-21.50.16:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/Developers/joshp/Collections/' took 0.00s
-[2020.10.14-21.50.16:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/Collections/' took 0.00s
-[2020.10.14-21.50.16:260][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3458 classes and 843 folders.
-[2020.10.14-21.50.16:262][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.14-21.50.16:363][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.14-21.50.16:364][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2020.10.14-21.50.16:964][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.14-21.50.16:967][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.14-21.50.16:971][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.14-21.50.17:052][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2020.10.14-21.50.17:090][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.14-21.50.17:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.14-21.50.17:158][  0]LogLoad: (Engine Initialization) Total time: 18.32 seconds
-[2020.10.14-21.50.17:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.14-21.50.17:174][  0]LogRawInputWindows: Warning: Found device 6 devices
-[2020.10.14-21.50.17:175][  0]LogRawInputWindows: Warning: Found device 6 devices
-[2020.10.14-21.50.17:175][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
-[2020.10.14-21.50.17:175][  0]LogRawInputWindows: Warning: Found device 6 devices
-[2020.10.14-21.50.17:175][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
-[2020.10.14-21.50.17:267][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.14-21.50.17:377][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.10.14-21.50.17:406][  1]LogAssetRegistry: Asset discovery search completed in 6.3201 seconds
-[2020.10.14-21.50.17:411][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.10.14-21.50.18:722][  5]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.14-21.50.21:998][263]LogSlate: Window 'Message Log' being destroyed
-[2020.10.14-21.50.22:008][263]LogSlate: Window 'Message Log' being destroyed
-[2020.10.14-21.50.23:087][378]LogSlate: Window 'Project Settings' being destroyed
-[2020.10.14-21.50.23:094][378]LogSlate: Window 'Project Settings' being destroyed
-[2020.10.14-21.50.37:720][ 43]LogTemp: Repeating last play command: Standalone Game
-[2020.10.14-21.50.37:742][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
-[2020.10.14-22.01.17:332][527]LogHttp: Warning: 00000295AD586400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5395C2C-4FD2-40A7-2382-2885E1C75E85%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=db18b9f246b6a8648392cb9c2d7ad4fe%7Cc93672d2d75f4f13b8957140ce894262%7C6cc7a551-d367-4056-a882-75f9d0f7057c&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
-[2020.10.14-22.01.17:332][527]LogHttp: Warning: 00000295AD586400: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2020.10.14-22.01.17:332][527]LogHttp: Warning: 00000295AD586400: libcurl info message cache 0 (Connection 3 seems to be dead!)
-[2020.10.14-22.01.17:332][527]LogHttp: Warning: 00000295AD586400: libcurl info message cache 1 (Closing connection 3)
-[2020.10.14-22.01.17:332][527]LogHttp: Warning: 00000295AD586400: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2020.10.14-22.01.17:333][527]LogHttp: Warning: 00000295AD586400: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
-[2020.10.14-22.01.17:333][527]LogHttp: Warning: 00000295AD586400: libcurl info message cache 4 (Closing connection 4)
-[2020.10.14-22.01.17:665][528]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5395C2C-4FD2-40A7-2382-2885E1C75E85%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=db18b9f246b6a8648392cb9c2d7ad4fe%7Cc93672d2d75f4f13b8957140ce894262%7C6cc7a551-d367-4056-a882-75f9d0f7057c&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:241][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.15-20.30.42:241][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.15-20.30.42:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:242][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:263][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.15-20.30.42:263][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.15-20.30.42:264][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.15-20.30.42:265][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.15-20.30.42:284][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.15-20.30.42:284][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.15-20.30.42:302][  0]LogHAL: Display: Platform has ~ 16 GB [17105620992 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.15-20.30.42:302][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.15-20.30.42:303][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.15-20.30.42:303][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.15-20.30.42:304][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.15-20.30.42:305][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.15-20.30.42:306][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.15-20.30.42:333][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.15-20.30.42:333][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.15-20.30.42:333][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.15-20.30.42:333][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Config/Windows/Engine.ini]
+[2020.10.15-20.30.42:346][  0]LogInit: Computer: DESKTOP-FDC1PMN
+[2020.10.15-20.30.42:346][  0]LogInit: User: joshp
+[2020.10.15-20.30.42:346][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.15-20.30.42:346][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.15-20.30.42:347][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.15-20.30.42:347][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.15-20.30.42:347][  0]LogMemory: Process Physical Memory: 114.77 MB used, 114.77 MB peak
+[2020.10.15-20.30.42:347][  0]LogMemory: Process Virtual Memory: 96.32 MB used, 96.32 MB peak
+[2020.10.15-20.30.42:347][  0]LogMemory: Physical Memory: 5744.46 MB used,  10568.73 MB free, 16313.19 MB total
+[2020.10.15-20.30.42:347][  0]LogMemory: Virtual Memory: 5110.44 MB used,  134212616.00 MB free, 134217728.00 MB total
+[2020.10.15-20.30.42:438][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.15-20.30.43:632][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.15-20.30.43:655][  0]LogInit: Using OS detected language (en-US).
+[2020.10.15-20.30.43:655][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.15-20.30.43:925][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.15-20.30.44:693][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.15-20.30.45:548][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.15-20.30.45:548][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.15-20.30.47:602][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.15-20.30.47:602][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.15-20.30.47:602][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.15-20.30.47:602][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.15-20.30.47:644][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.10.15-20.30.47:644][  0]LogD3D11RHI:       4059/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.15-20.30.47:648][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.15-20.30.47:648][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.15-20.30.47:648][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.15-20.30.47:657][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.15-20.30.47:657][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.15-20.30.47:657][  0]LogWindows: EnumDisplayDevices:
+[2020.10.15-20.30.47:658][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.10.15-20.30.47:658][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.10.15-20.30.47:658][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.10.15-20.30.47:659][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.10.15-20.30.47:659][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.15-20.30.47:659][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.10.15-20.30.47:659][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2020.10.15-20.30.47:659][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2020.10.15-20.30.47:659][  0]LogRHI: Texture pool is 2841 MB (70% of 4059 MB)
+[2020.10.15-20.30.47:741][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.15-20.30.47:763][  0]LogD3D11RHI: [Aftermath] Failed to initialize. Result=bad0000c
+[2020.10.15-20.30.47:764][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.15-20.30.48:049][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.15-20.30.49:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.15-20.30.49:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.15-20.30.49:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.15-20.30.49:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.15-20.30.49:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.15-20.30.49:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.15-20.30.49:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.15-20.30.49:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.15-20.30.49:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.15-20.30.49:873][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.15-20.30.49:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.15-20.30.49:972][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.15-20.30.50:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.15-20.30.50:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.15-20.30.50:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.15-20.30.50:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.15-20.30.50:291][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.15-20.30.50:291][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.15-20.30.50:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.15-20.30.50:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.15-20.30.50:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.15-20.30.50:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.15-20.30.50:517][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.15-20.30.50:779][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.15-20.30.51:822][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Intermediate/Shaders/WorkingDirectory/7680/).
+[2020.10.15-20.30.51:822][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshp/AppData/Local/Temp/UnrealShaderWorkingDir/4EFBA3024B84539631FAECA331490A70/'.
+[2020.10.15-20.30.51:823][  0]LogXGEController: Cleaning working directory: C:/Users/joshp/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.15-20.30.51:823][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.15-20.30.51:823][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.15-20.30.51:823][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.15-20.31.03:016][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.15-20.31.03:796][  0]LogDerivedDataCache: Loaded boot cache 0.76s 76MB C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.15-20.31.03:797][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.15-20.31.03:797][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/Sunfall/GitHubSunFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.15-20.31.03:797][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.15-20.31.03:797][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/GitHub/Sunfall/GitHubSunFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.15-20.31.03:797][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.15-20.31.03:865][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.15-20.31.03:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.15-20.31.03:866][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.15-20.31.03:908][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.15-20.31.03:908][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.15-20.31.03:908][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.15-20.31.04:216][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.15-20.31.04:375][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.15-20.31.05:992][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2020.10.15-20.31.10:441][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.15-20.31.13:912][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.15-20.31.13:912][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.15-20.31.13:913][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.15-20.31.13:913][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.15-20.31.13:913][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.15-20.31.15:650][  0]LogNetVersion: RaceGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3031071720)
+[2020.10.15-20.31.39:390][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020B8FCAE980), frame # 0
+[2020.10.15-20.31.39:390][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020B8FB5EAC0), frame # 0
+[2020.10.15-20.31.39:397][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020B8FBC1C00), frame # 0
+[2020.10.15-20.31.39:792][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.215949 seconds
+[2020.10.15-20.31.39:820][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.15-20.31.39:820][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.15-20.31.39:820][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.15-20.31.45:677][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.15-20.31.45:732][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.15-20.31.46:840][  0]SourceControl: Source control is disabled
+[2020.10.15-20.31.46:851][  0]SourceControl: Source control is disabled
+[2020.10.15-20.31.50:399][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.15-20.31.50:615][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.15-20.31.50:615][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.15-20.31.51:085][  0]LogOcInput: OculusInput pre-init called
+[2020.10.15-20.31.51:196][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.15-20.31.51:196][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.15-20.31.52:353][  0]LogEngine: Initializing Engine...
+[2020.10.15-20.31.52:374][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.15-20.31.52:374][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.15-20.31.52:425][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.008 s
+[2020.10.15-20.31.53:273][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.15-20.31.53:563][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.15-20.31.53:563][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020B9576FC00), frame # 0
+[2020.10.15-20.31.53:570][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020B957B9F80), frame # 0
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.15-20.31.53:655][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.15-20.31.53:662][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.15-20.31.53:683][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.15-20.31.53:683][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.15-20.31.53:979][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.15-20.31.53:979][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.15-20.31.54:125][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.15-20.31.54:198][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.15-20.31.54:341][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.15-20.31.54:341][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.15-20.31.54:343][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.15-20.31.54:411][  0]LogInit: FAudioDevice initialized.
+[2020.10.15-20.31.54:424][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.15-20.31.54:600][  0]LogDerivedDataCache: Saved boot cache 0.18s 76MB C:/Users/joshp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.15-20.31.54:601][  0]LogInit: Texture streaming: Enabled
+[2020.10.15-20.31.54:845][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.15-20.31.54:845][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={A34D0F74-49DE-82D9-4417-10A6232041AC}
+[2020.10.15-20.31.54:845][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.15-20.31.54:870][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.15-20.31.55:230][  0]LogInit: Transaction tracking system initialized
+[2020.10.15-20.31.55:668][  0]BlueprintLog: New page: Editor Load
+[2020.10.15-20.31.57:103][  0]LocalizationService: Localization service is disabled
+[2020.10.15-20.31.59:279][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2020.10.15-20.32.01:216][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.15-20.32.01:216][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.15-20.32.01:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/' took 0.10s
+[2020.10.15-20.32.08:199][  0]SourceControl: Error: P4ERROR: Failed to connect to source control provider.
+[2020.10.15-20.32.08:199][  0]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.32.08:199][  0]SourceControl: Error: Port=ssl:perforce.sae-us.com:1666, User=19054052.us, ClientSpec=JPSunFall, Ticket=
+[2020.10.15-20.32.08:233][  0]LogUnrealEdMisc: Loading editor; pre map load, took 171.522
+[2020.10.15-20.32.08:325][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/SunfallMap/Maps/SunfallMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.15-20.32.08:496][  0]LightingResults: New page: Lighting Build
+[2020.10.15-20.32.08:787][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-20.32.08:845][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-20.32.08:865][  0]MapCheck: New page: Map Check
+[2020.10.15-20.32.08:865][  0]LightingResults: New page: Lighting Build
+[2020.10.15-20.32.09:475][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020B9576FC00), frame # 0
+[2020.10.15-20.32.09:475][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020B957B9F80), frame # 0
+[2020.10.15-20.32.09:478][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.10.15-20.32.11:369][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.11:369][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.10.15-20.32.11:370][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.11:370][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.10.15-20.32.11:370][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.11:370][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.10.15-20.32.11:370][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.11:370][  0]LoadErrors: Failed to load /Game/board_sample_Cube.board_sample_Cube Referenced by board_sample_Cube1_GEN_VARIABLE
+[2020.10.15-20.32.11:371][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.11:371][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:371][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.11:371][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:372][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.11:372][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:372][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.11:372][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:373][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.11:373][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:373][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.11:373][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:373][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.11:373][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.11:374][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.11:374][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by VehcileMovement_GEN_VARIABLE
+[2020.10.15-20.32.12:945][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.12:945][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.10.15-20.32.12:946][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.12:946][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.10.15-20.32.12:946][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.12:946][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.10.15-20.32.12:946][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.12:946][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelFront.WheelFront_C Referenced by MovementComp
+[2020.10.15-20.32.12:947][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.12:947][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.10.15-20.32.12:947][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.12:947][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.10.15-20.32.12:947][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.12:947][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.10.15-20.32.12:947][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.12:947][  0]LoadErrors: Failed to load /Game/VehicleAdvBP/Blueprints/WheelData/WheelBack.WheelBack_C Referenced by MovementComp
+[2020.10.15-20.32.13:245][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:245][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:245][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:245][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:285][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:285][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:285][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:286][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:407][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:407][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:407][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:408][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:409][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:409][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:410][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:410][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:412][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:412][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:412][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:412][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:413][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:413][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:413][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:413][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:459][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:459][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:459][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:459][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:461][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:461][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelBack': Can't find file.
+[2020.10.15-20.32.13:461][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.13:461][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset' failed to load '/Game/VehicleAdvBP/Blueprints/WheelData/WheelFront': Can't find file.
+[2020.10.15-20.32.15:317][  0]LogBlueprint: Warning: [Compiler VehicleBlueprint] InputAction Event references unknown Action 'Handbrake' for  InputAction Handbrake
+[2020.10.15-20.32.48:302][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.48:302][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.10.15-20.32.48:303][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.48:303][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.10.15-20.32.48:303][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.48:303][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.10.15-20.32.48:304][  0]LogLinker: Warning: While loading '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset' failed to load '/Game/Material': Can't find file.
+[2020.10.15-20.32.48:304][  0]LoadErrors: Failed to load /Game/Material.Material Referenced by board_sample_Cube
+[2020.10.15-20.34.14:606][  0]LogAIModule: Creating AISystem for world SunfallMap
+[2020.10.15-20.34.14:607][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020BA0021000), frame # 0
+[2020.10.15-20.34.14:607][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020B9FFA7B00), frame # 0
+[2020.10.15-20.34.26:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.15-20.34.26:395][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.10.15-20.34.26:398][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.15-20.34.26:436][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.875ms to complete.
+[2020.10.15-20.34.26:436][  0]LogFileHelpers: Loading map 'SunfallMap' took 138.151
+[2020.10.15-20.34.28:730][  0]LogUnrealEdMisc: Total Editor Startup Time, took 312.019
+[2020.10.15-20.34.31:003][  0]LogSourceControl: Attempting 'p4 client -o JPSunFall'
+[2020.10.15-20.34.31:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-20.34.31:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-20.34.31:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-20.34.31:028][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-20.34.31:480][  0]LogCollectionManager: Loaded 0 collections in 0.026419 seconds
+[2020.10.15-20.34.31:897][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Saved/Collections/' took 0.10s
+[2020.10.15-20.34.31:897][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/Developers/joshp/Collections/' took 0.00s
+[2020.10.15-20.34.31:897][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/Collections/' took 0.02s
+[2020.10.15-20.34.31:897][  0]LogContentBrowser: Native class hierarchy populated in 0.0292 seconds. Added 3429 classes and 824 folders.
+[2020.10.15-20.34.32:406][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.15-20.34.37:105][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.15-20.34.37:157][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.10.15-20.34.41:761][  0]LogSlate: Took 0.038145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.15-20.34.41:835][  0]LogSlate: Took 0.032016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.15-20.34.41:901][  0]LogSlate: Took 0.012645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.15-20.34.42:817][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.10.15-20.34.43:452][  0]LogStaticMesh: Allocated 153x128x110 distance field atlas = 4.1Mb, with 2 objects containing 3.4Mb backing data
+[2020.10.15-20.34.44:145][  0]LogSlate: Took 0.026223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.15-20.34.44:627][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.15-20.34.44:627][  0]LogLoad: (Engine Initialization) Total time: 327.92 seconds
+[2020.10.15-20.34.44:627][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.15-20.34.44:671][  0]LogRawInputWindows: Warning: Found device 3 devices
+[2020.10.15-20.34.44:672][  0]LogRawInputWindows: Warning: Found device 3 devices
+[2020.10.15-20.34.44:672][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2020.10.15-20.34.44:672][  0]LogRawInputWindows: Warning: Found device 3 devices
+[2020.10.15-20.34.44:672][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2020.10.15-20.34.44:960][  0]LogDirectoryWatcher: A directory notification failed for '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2020.10.15-20.34.44:960][  0]LogDirectoryWatcher: A directory notification failed for '../../../../../Documents/GitHub/Sunfall/GitHubSunFall/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2020.10.15-20.34.44:960][  0]LogDirectoryWatcher: A directory notification failed for 'C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2020.10.15-20.34.45:316][  0]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.34.45:317][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.15-20.34.45:380][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.15-20.34.49:671][  0]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultEngine.ini C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/board_sample_Cube.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/BoostPad.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/BoostPadImage.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/BoostPadImageBW.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/BoostPadMat.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverboardBP1.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/HoverComponent2.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/lambert1.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Content/waterfall_1_.uasset C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.34.49:671][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.290 s
+[2020.10.15-20.34.49:671][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.15-20.34.49:671][  0]LogOutputDevice: Error: 
+[2020.10.15-20.34.49:671][  0]LogOutputDevice: Error: Ensure condition failed: FMath::IsFinite(TexelFactor) [File:D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Engine\Classes\Engine/TextureStreamingTypes.h] [Line: 96]
+[2020.10.15-20.34.49:671][  0]LogOutputDevice: Error: 
+[2020.10.15-20.34.49:671][  0]LogOutputDevice: Error: Stack: 
+[2020.10.15-20.34.49:671][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfe213278 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfcd98a44 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfd9e9326 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfd991271 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfd9919f4 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfd991f53 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfd9af54c UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfcecf5d8 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdfcecb3ff UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdf96dafc4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdf9fb00d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab767800 UE4Editor.exe!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab77ba7c UE4Editor.exe!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab77bb5a UE4Editor.exe!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab78e31d UE4Editor.exe!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab79145a UE4Editor.exe!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe69687bd4 KERNEL32.DLL!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe6aa6ce51 ntdll.dll!UnknownFunction []
+[2020.10.15-20.34.49:672][  0]LogOutputDevice: Error: 
+[2020.10.15-20.34.49:805][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.10.15-20.34.59:015][  0]LogStats:                    SendNewReport -  9.211 s
+[2020.10.15-20.34.59:015][  0]LogStats:             FDebug::EnsureFailed - 13.635 s
+[2020.10.15-20.34.59:468][  0]LogSlate: Took 0.019547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.15-20.34.59:658][  1]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.34.59:797][  2]LogAssetRegistry: Asset discovery search completed in 233.8296 seconds
+[2020.10.15-20.34.59:802][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000184 seconds (updated 0 objects)
+[2020.10.15-20.35.00:241][  4]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.00:515][  4]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.01:516][  8]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.01:825][  8]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.04:137][ 14]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.04:137][ 14]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.04:137][ 14]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.04:522][ 16]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.05:899][ 21]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.06:209][ 21]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.06:209][ 21]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.06:525][ 22]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.08:172][ 25]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.08:172][ 25]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.09:133][ 28]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.09:133][ 28]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.10:640][ 33]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.10:985][ 33]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.11:662][ 36]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.11:937][ 36]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.12:542][ 39]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.12:902][ 39]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.13:971][ 43]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.14:232][ 43]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.15:658][ 48]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.16:025][ 48]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.16:025][ 48]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.16:322][ 49]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.17:306][ 53]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.17:628][ 53]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.18:859][ 56]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.18:859][ 56]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.19:628][ 60]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.19:915][ 60]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.20:914][ 64]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.21:257][ 64]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.22:616][ 69]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.23:016][ 69]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.23:427][ 71]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.23:766][ 71]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.24:655][ 74]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.24:655][ 74]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.25:715][ 77]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.25:715][ 77]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.26:639][ 81]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.26:939][ 81]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.28:367][ 85]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.28:367][ 85]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.29:890][ 90]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.30:251][ 90]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.30:251][ 90]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.30:733][ 91]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.31:586][ 95]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.32:071][ 95]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.32:952][ 98]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.32:952][ 98]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.33:606][101]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.33:943][101]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.34:995][105]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.35:275][105]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.35:960][108]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.36:441][108]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.37:630][113]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.37:953][113]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.38:614][116]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.38:945][116]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.40:670][122]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.40:977][122]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.40:977][122]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.41:586][123]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.42:346][127]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.42:640][127]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.43:095][129]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.43:427][129]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.44:407][132]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.44:407][132]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.46:028][136]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.46:028][136]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.46:781][140]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.47:093][140]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.47:689][142]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.48:136][143]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.48:530][145]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.48:941][145]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.50:150][149]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.50:150][149]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.51:291][153]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.51:740][153]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.52:492][157]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.52:947][157]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.53:791][160]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.53:791][160]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.54:812][164]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.55:132][164]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.55:814][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.56:136][167]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.56:815][170]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.57:137][170]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.57:824][173]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.58:145][173]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.35.58:820][176]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.35.59:145][176]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.00:155][180]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.00:729][180]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.01:465][183]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.02:026][183]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.03:214][187]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.03:534][187]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.03:534][187]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.03:869][188]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.05:548][193]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.05:548][193]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.05:881][194]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.05:881][194]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.06:899][198]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.07:219][198]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.08:224][201]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.08:224][201]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.08:897][203]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.08:897][203]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.09:904][206]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.09:904][206]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.10:916][209]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.10:916][209]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.11:933][213]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.12:260][213]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.15:288][223]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.15:618][223]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.15:966][225]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.16:288][225]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.16:288][225]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.16:288][225]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.16:622][226]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.16:960][227]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.16:960][227]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.17:294][228]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.17:633][230]LogDerivedDataCache: Warning: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.37MB/s) when accessing C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/0/TEXTURE_564290F8998644E39A2118D5C683187B_AUTODXT_9265FA1043AED59366EC6D8BE1AEC__AD7E38064EB8B6CB9FD34F1B35CCF4973AE00027.udd, consider disabling it.
+[2020.10.15-20.36.17:965][230]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.17:965][230]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.18:965][233]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.18:965][233]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.19:977][236]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.19:977][236]LogDerivedDataCache: Warning: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.25MB/s) when accessing C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/8/TEXTURE_564290F8998644E39A2118D5C683187B_AUTODXT_AAA9B5104CA544869E25BCB1BF597__06E1D7A2EB428BF0462F124714A1AE757DCCDF45.udd, consider disabling it.
+[2020.10.15-20.36.19:977][236]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.20:660][239]LogDerivedDataCache: Warning: C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.06MB/s) when accessing C:/Users/joshp/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/0/TEXTURE_564290F8998644E39A2118D5C683187B_AUTODXT_9265FA1043AED59366EC6D8BE1AEC__445B52D0A71D3E2776169E3E90EF5A8121382DFD.udd, consider disabling it.
+[2020.10.15-20.36.20:983][239]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.20:983][239]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.21:987][242]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.21:987][242]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.22:988][245]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.22:988][245]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.23:998][248]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.23:998][248]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.25:000][251]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.25:000][251]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.26:007][254]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.26:007][254]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.27:022][257]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.27:022][257]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.28:030][260]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.28:030][260]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.29:036][263]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.29:036][263]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.30:043][266]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.30:043][266]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.31:056][269]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.31:057][269]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.32:066][272]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.32:066][272]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.33:067][275]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.33:067][275]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.34:077][278]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.34:077][278]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.35:084][281]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.35:084][281]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.36:087][284]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.36:087][284]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.37:095][287]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.37:095][287]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.38:103][290]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.38:103][290]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.39:112][293]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.39:112][293]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.40:125][296]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.40:125][296]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.41:134][299]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.41:134][299]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.42:144][302]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.42:144][302]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.43:163][305]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.43:163][305]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.44:168][308]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.44:168][308]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.45:180][311]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.45:180][311]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.46:187][314]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.46:188][314]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.47:199][317]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.47:199][317]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.48:218][320]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.48:218][320]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.49:224][323]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.49:224][323]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.50:231][326]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.50:231][326]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.51:243][329]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.51:244][329]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.52:250][332]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.52:250][332]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.53:261][335]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.53:261][335]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.54:271][338]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.54:271][338]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.55:276][341]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.55:276][341]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.56:277][344]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.56:277][344]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.57:283][347]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.57:284][347]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.58:297][350]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.58:297][350]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.36.59:303][353]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.36.59:303][353]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.00:306][356]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.00:306][356]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.01:312][359]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.01:313][359]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.02:320][362]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.02:320][362]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.03:332][365]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.03:332][365]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.04:331][368]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.04:331][368]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.05:681][372]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.05:681][372]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.06:689][375]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.06:689][375]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.07:700][378]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.07:700][378]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.08:716][381]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.08:716][381]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.09:723][384]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.09:723][384]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.10:722][387]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.10:722][387]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.12:063][391]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.12:063][391]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.13:067][394]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.13:067][394]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.14:086][397]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.14:086][397]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.15:097][400]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.15:097][400]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.16:115][403]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.16:115][403]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.17:129][406]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.17:129][406]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.18:134][409]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.18:134][409]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.19:140][412]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.19:140][412]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.20:141][415]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.20:142][415]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.21:152][418]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.21:152][418]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.22:162][421]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.22:162][421]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.23:177][424]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.23:177][424]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.24:184][427]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.24:184][427]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.25:187][430]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.25:187][430]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.26:205][433]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.26:205][433]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.27:217][436]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.27:217][436]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.28:230][439]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.28:230][439]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.29:247][443]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.29:576][443]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.30:262][446]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.30:593][446]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.31:285][449]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.31:605][449]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.32:285][452]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.32:613][452]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.33:299][455]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.33:630][455]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.34:314][458]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.34:636][458]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.35:320][461]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.35:650][461]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.36:337][464]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.36:668][464]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.37:350][467]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.37:681][467]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.38:360][470]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.38:692][470]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.39:366][473]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.39:696][473]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.40:376][476]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.40:706][476]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.41:400][479]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.41:719][479]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.42:394][482]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.42:724][482]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.43:407][485]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.43:737][485]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.44:418][488]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.44:749][488]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.45:425][490]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.45:425][490]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.46:444][494]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.46:766][494]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.47:453][497]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.47:784][497]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.48:471][500]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.48:800][500]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.49:482][503]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.49:812][503]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.50:502][506]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.50:825][506]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.51:517][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.51:835][509]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.52:518][512]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.52:849][512]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.53:527][515]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.53:859][515]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.54:534][518]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.54:864][518]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.55:536][520]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.55:536][520]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.56:567][524]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
+[2020.10.15-20.37.56:884][524]SourceControl: Error: Your session has expired, please login again.
+
+[2020.10.15-20.37.57:568][527]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/joshp/Documents/GitHub/Sunfall/GitHubSunFall/Config/DefaultCrypto.ini'
